@@ -13,9 +13,7 @@ body {
 #container {
     width: 100vw;
     height: 100vh;
-    margin: auto auto;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
@@ -23,7 +21,6 @@ body {
 #content {
     background: white;
     width: 335px;
-    height: 80vh;
     border-radius: 10px;
 }
 
@@ -35,6 +32,10 @@ body {
 
 #text-content {
     padding: 29px;
+}
+
+#text-perfume {
+    font-size: 12px;
 }
 
 p {
@@ -94,7 +95,6 @@ p {
     #content {
         background-color: white;
         width: 580px;
-        height: 450px;
         border-radius: 13px;
         display: flex;
     }
@@ -107,7 +107,6 @@ p {
 
     h1 {
         margin-bottom: 13px;
-        line-height: 1;
     }
 
     p {
